@@ -1,6 +1,5 @@
 import {
     Body,
-    ConflictException,
     Controller,
     Delete,
     Get,
@@ -11,7 +10,7 @@ import {
     UsePipes,
     ValidationPipe,
 } from '@nestjs/common';
-import { CreateUserDto, UserDto } from '../Dto/user.dto';
+import { CreateUserDto } from '../Dto/user.dto';
 import { UserService } from './user.service';
 import { UpdateUserDto } from '../Dto/updateUser.dto';
 
